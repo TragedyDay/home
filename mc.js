@@ -1,6 +1,6 @@
 async function checkServerStatus() {
-    const serverIp = 'mc.trgdy.site';
-    const serverPort = '25565';
+    const serverIp = 'gtnh.trgdy.site';
+    const serverPort = '100';
 try {
     const response = await fetch(`https://mcapi.us/server/status?ip=${serverIp}&port=${serverPort}`);
     const data = await response.json();
