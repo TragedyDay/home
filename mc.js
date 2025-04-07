@@ -2,7 +2,7 @@ async function checkServerStatus() {
     const serverIp = '47.120.67.232';
     const serverPort = '1100';
 try {
-    const response = await fetch(`https://mcapi.us/server/status?ip=${'47.120.67.232'}&port=${'1100'}`);
+    const response = await fetch(`https://mcapi.us/server/status?ip=${serverIp}&port=${serverPort}`);
     const data = await response.json();
 
     const statusElement = document.getElementById('status');
